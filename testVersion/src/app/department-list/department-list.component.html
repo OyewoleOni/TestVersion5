@@ -1,3 +1,12 @@
-<p>
-  department-list works!
-</p>
+<h3>
+  Department List
+</h3>
+
+<ul>
+  <li *ngFor="let deoartment of departments">
+    <span class="badge">
+      {{deoartment.id}}
+    </span>
+    {{deoartment.name}}
+  </li>
+</ul>
