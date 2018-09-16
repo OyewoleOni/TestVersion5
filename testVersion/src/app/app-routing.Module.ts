@@ -1,3 +1,4 @@
+import { EnrollmentFormComponent } from './enrollment-form/enrollment-form.component';
 import { DepartmentContactComponent } from './department-contact/department-contact.component';
 import { DepartmentOverviewComponent } from './department-overview/department-overview.component';
 import { DepartmentDetailComponent } from './department-detail/department-detail.component';
@@ -20,6 +21,7 @@ const routes: Routes=[
         ]
     },
     {path: "employees", component: EmployeeListComponent},
+    {path: "form", component:EnrollmentFormComponent},
     {path:"**", component:PageNotFoundComponent}
 ];
 
