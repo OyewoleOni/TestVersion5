@@ -1,0 +1,22 @@
+
+<p>
+  Tests
+</p>
+ <ng-sidebar-container style="height: 100vh;">
+    <!-- A sidebar -->
+    <ng-sidebar [(opened)]="_opened" [mode]="mode">
+      <br>
+      <br>
+      <ul>
+          <li>Menu Item</li>
+          <li>Menu Item</li>
+          <li>Menu Item</li>
+        </ul>
+    </ng-sidebar>
+
+    <!-- Page content -->
+    <div ng-sidebar-content>
+      <button (click)="_toggleSidebar()">Toggle sidebar</button>
+    </div>
+  </ng-sidebar-container>
+

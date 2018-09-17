@@ -1,3 +1,5 @@
+import { Sidebar2Component } from './sidebar2/sidebar2.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 import { EnrollmentFormComponent } from './enrollment-form/enrollment-form.component';
 import { DepartmentContactComponent } from './department-contact/department-contact.component';
 import { DepartmentOverviewComponent } from './department-overview/department-overview.component';
@@ -22,6 +24,9 @@ const routes: Routes=[
     },
     {path: "employees", component: EmployeeListComponent},
     {path: "form", component:EnrollmentFormComponent},
+    {path: "sidebar", component:SidebarComponent},
+    {path: "sidebar2", component:Sidebar2Component},
+
     {path:"**", component:PageNotFoundComponent}
 ];
 

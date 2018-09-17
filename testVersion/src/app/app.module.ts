@@ -3,6 +3,7 @@ import { PostService } from './post.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule} from '@angular/forms';
+import {SidebarModule} from 'ng-sidebar';
 
 
 import { AppComponent } from './app.component';
@@ -13,6 +14,8 @@ import { DepartmentDetailComponent } from './department-detail/department-detail
 import { DepartmentOverviewComponent } from './department-overview/department-overview.component';
 import { DepartmentContactComponent } from './department-contact/department-contact.component';
 import { EnrollmentFormComponent } from './enrollment-form/enrollment-form.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { Sidebar2Component } from './sidebar2/sidebar2.component';
 // import { DepartmentListComponent } from './department-list/department-list.component';
 // import { EmployeeListComponent } from './employee-list/employee-list.component';
 
@@ -27,13 +30,16 @@ import { EnrollmentFormComponent } from './enrollment-form/enrollment-form.compo
     DepartmentDetailComponent,
     DepartmentOverviewComponent,
     DepartmentContactComponent,
-    EnrollmentFormComponent
+    EnrollmentFormComponent,
+    SidebarComponent,
+    Sidebar2Component
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    SidebarModule.forRoot()
 
   ],
   providers: [PostService],

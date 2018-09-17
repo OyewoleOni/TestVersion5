@@ -10,7 +10,7 @@ export class EnrollmentFormComponent implements OnInit {
 
   topics =['Angular','React','Vue'];
 
-  userModel = new User('Oni','a@a.com',9999,'','morning',true);
+  userModel = new User('','a@a.com',9999,'','morning',true);
   constructor() { }
 
   ngOnInit() {
