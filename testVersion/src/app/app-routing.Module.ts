@@ -1,3 +1,4 @@
+import { Sidebar3Component } from './sidebar3/sidebar3.component';
 import { Sidebar2Component } from './sidebar2/sidebar2.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { EnrollmentFormComponent } from './enrollment-form/enrollment-form.component';
@@ -26,6 +27,7 @@ const routes: Routes=[
     {path: "form", component:EnrollmentFormComponent},
     {path: "sidebar", component:SidebarComponent},
     {path: "sidebar2", component:Sidebar2Component},
+    {path: "sidebar3", component: Sidebar3Component},
 
     {path:"**", component:PageNotFoundComponent}
 ];

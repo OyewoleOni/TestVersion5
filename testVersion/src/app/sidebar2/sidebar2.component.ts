@@ -15,9 +15,8 @@ export class Sidebar2Component implements OnInit {
 
   ngOnInit() {
   }
-
    _toggleSidebar() {
     this._opened = !this._opened;
-    this.router.navigate(['/sidebar2']);
+    
   }
 }

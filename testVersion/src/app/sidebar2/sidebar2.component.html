@@ -1,7 +1,4 @@
 
-<p>
-  Tests
-</p>
  <ng-sidebar-container style="height: 100vh;">
     <!-- A sidebar -->
     <ng-sidebar [(opened)]="_opened" [mode]="mode">
@@ -13,7 +10,9 @@
           <li>Menu Item</li>
         </ul>
     </ng-sidebar>
-
+    <ng-sidebar>
+        <a closeSidebar>Closes the sidebar</a>
+      </ng-sidebar>
     <!-- Page content -->
     <div ng-sidebar-content>
       <button (click)="_toggleSidebar()">Toggle sidebar</button>

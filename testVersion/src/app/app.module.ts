@@ -16,6 +16,7 @@ import { DepartmentContactComponent } from './department-contact/department-cont
 import { EnrollmentFormComponent } from './enrollment-form/enrollment-form.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { Sidebar2Component } from './sidebar2/sidebar2.component';
+import { Sidebar3Component } from './sidebar3/sidebar3.component';
 // import { DepartmentListComponent } from './department-list/department-list.component';
 // import { EmployeeListComponent } from './employee-list/employee-list.component';
 
@@ -32,7 +33,8 @@ import { Sidebar2Component } from './sidebar2/sidebar2.component';
     DepartmentContactComponent,
     EnrollmentFormComponent,
     SidebarComponent,
-    Sidebar2Component
+    Sidebar2Component,
+    Sidebar3Component
   ],
   imports: [
     BrowserModule,
