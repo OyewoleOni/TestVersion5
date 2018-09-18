@@ -5,10 +5,10 @@
 }
 #sidebar{
     position: fixed;
-    width: 200px;
+    width: 100px;
     height: 100%;
     background: #151718;
-    left: -200px;
+    left: -100px;
     transition: all 500ms linear;
 }
 #sidebar.active{
@@ -23,7 +23,7 @@
 
 #sidebar .toggle-btn {
     position: absolute;
-    left: 200px;
+    left: 100px;
     top: 1px;
 }
 #sidebar .toggle-btn span{
