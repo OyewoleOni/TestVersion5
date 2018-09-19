@@ -11,5 +11,13 @@ export class Sidebar3Component implements OnInit {
 
   ngOnInit() {
   }
+  openSlideMenu(){
+     document.getElementById('side-menu').style.width='250px';
+     document.getElementById('main').style.marginLeft='250px';
 
+  }
+  closeSideMenu(){
+    document.getElementById('side-menu').style.width='0';
+    document.getElementById('main').style.marginLeft='0';
+  }
 }
