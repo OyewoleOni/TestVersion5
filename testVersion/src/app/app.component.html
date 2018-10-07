@@ -10,7 +10,15 @@
     <a routerLink="/sidebar" routerLinkActive="active">Sidebar</a>
     <a routerLink="/sidebar2" routerLinkActive="active">Sidebar2</a>
     <a routerLink="/sidebar3" routerLinkActive="active">Sidebar3</a>
+    <a routerLink="/sidebar4" class="badge1" data-badge="27"  routerLinkActive="active">
+        Test
+    </a>
 
 </nav>
+
+<a routerLink="/sidebar3" class="notification" routerLinkActive="active">
+    Sidebar3
+    <app-badge class="badge" [alertCount]=2></app-badge>
+</a>
 
 <router-outlet></router-outlet>

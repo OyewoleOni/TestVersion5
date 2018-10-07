@@ -62,7 +62,7 @@ body{
 }
 
 #main{
-    transition:margin-left 0,5s;
+    transition:margin-left 0.5s;
     padding: 20px;
     overflow: hidden;
     width: 100%;
@@ -71,6 +71,6 @@ body{
 @media(max-width:560px){
     .navTest.navTest{display: none}
 }
-@media(min-width:560px){
+/* @media(min-width:560px){
     .open-slide{display: none}
-}
+} */

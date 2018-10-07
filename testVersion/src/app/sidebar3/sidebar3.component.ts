@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+
 
 @Component({
   selector: 'app-sidebar3',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Sidebar3Component implements OnInit {
 
+  @Input() isToggled: boolean;
+  @Output() change = new EventEmitter();
   constructor() { }
 
   ngOnInit() {
@@ -14,7 +17,7 @@ export class Sidebar3Component implements OnInit {
   openSlideMenu(){
      document.getElementById('side-menu').style.width='250px';
      document.getElementById('main').style.marginLeft='250px';
-
+    this.change.emit
   }
   closeSideMenu(){
     document.getElementById('side-menu').style.width='0';

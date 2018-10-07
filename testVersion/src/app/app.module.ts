@@ -18,6 +18,8 @@ import { EnrollmentFormComponent } from './enrollment-form/enrollment-form.compo
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { Sidebar2Component } from './sidebar2/sidebar2.component';
 import { Sidebar3Component } from './sidebar3/sidebar3.component';
+import { TestReComComponent } from './test-re-com/test-re-com.component';
+import { BadgeComponent } from './badge/badge.component';
 // import { DepartmentListComponent } from './department-list/department-list.component';
 // import { EmployeeListComponent } from './employee-list/employee-list.component';
 
@@ -35,7 +37,9 @@ import { Sidebar3Component } from './sidebar3/sidebar3.component';
     EnrollmentFormComponent,
     SidebarComponent,
     Sidebar2Component,
-    Sidebar3Component
+    Sidebar3Component,
+    TestReComComponent,
+    BadgeComponent
   ],
   imports: [
     BrowserModule,

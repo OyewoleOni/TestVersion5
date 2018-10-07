@@ -1,3 +1,4 @@
+import { TestReComComponent } from './test-re-com/test-re-com.component';
 import { Sidebar3Component } from './sidebar3/sidebar3.component';
 import { Sidebar2Component } from './sidebar2/sidebar2.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
@@ -28,6 +29,7 @@ const routes: Routes=[
     {path: "sidebar", component:SidebarComponent},
     {path: "sidebar2", component:Sidebar2Component},
     {path: "sidebar3", component: Sidebar3Component},
+    {path: "sidebar4", component: TestReComComponent},
 
     {path:"**", component:PageNotFoundComponent}
 ];
