@@ -11,36 +11,44 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { DepartmentListComponent } from './department-list/department-list.component';
 import { NgModule } from "@angular/core";
-import {Routes,RouterModule} from "@angular/router";
+import { Routes, RouterModule } from "@angular/router";
 
-const routes: Routes=[
-    {path:"", redirectTo:'/departments', pathMatch:'full'},
-    {path: "departments", component:DepartmentListComponent},
+const routes: Routes = [
+    { path: "", redirectTo: '/departments', pathMatch: 'full' },
+    { path: "departments", component: DepartmentListComponent },
     {
-        path: "departments/:id", 
+        path: "departments/:id",
         component: DepartmentDetailComponent,
         children: [
-            {path:'overview', component:DepartmentOverviewComponent},
-            {path:'contact' , component: DepartmentContactComponent}
+            { path: 'overview', component: DepartmentOverviewComponent },
+            { path: 'contact', component: DepartmentContactComponent }
         ]
     },
-    {path: "employees", component: EmployeeListComponent},
-    {path: "form", component:EnrollmentFormComponent},
-    {path: "sidebar", component:SidebarComponent},
-    {path: "sidebar2", component:Sidebar2Component},
-    {path: "sidebar3", component: Sidebar3Component},
-    {path: "sidebar4", component: TestReComComponent},
+    {
+        path: "employees",
+        component: EmployeeListComponent,
+        data: { title: 'My Calendar' }
+    },
+    {
+        path: "form",
+        component: EnrollmentFormComponent,
+        data: { title: 'New Calendar Entry' }
+    },
+    { path: "sidebar", component: SidebarComponent },
+    { path: "sidebar2", component: Sidebar2Component },
+    { path: "sidebar3", component: Sidebar3Component },
+    { path: "sidebar4", component: TestReComComponent },
 
-    {path:"**", component:PageNotFoundComponent}
+    { path: "**", component: PageNotFoundComponent }
 ];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
-    exports:[RouterModule]
+    exports: [RouterModule]
 })
 
 export class AppRoutingModule { }
-export const routingComponent=[
+export const routingComponent = [
     DepartmentListComponent,
     EmployeeListComponent,
     PageNotFoundComponent,
