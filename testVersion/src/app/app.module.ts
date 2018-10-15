@@ -20,6 +20,9 @@ import { Sidebar2Component } from './sidebar2/sidebar2.component';
 import { Sidebar3Component } from './sidebar3/sidebar3.component';
 import { TestReComComponent } from './test-re-com/test-re-com.component';
 import { BadgeComponent } from './badge/badge.component';
+import { PubServiceService} from './pub-service.service';
+import { OneComponent } from './one/one.component';
+import { TwoComponent } from './two/two.component';
 // import { DepartmentListComponent } from './department-list/department-list.component';
 // import { EmployeeListComponent } from './employee-list/employee-list.component';
 
@@ -39,7 +42,9 @@ import { BadgeComponent } from './badge/badge.component';
     Sidebar2Component,
     Sidebar3Component,
     TestReComComponent,
-    BadgeComponent
+    BadgeComponent,
+    OneComponent,
+    TwoComponent
   ],
   imports: [
     BrowserModule,
@@ -50,6 +55,7 @@ import { BadgeComponent } from './badge/badge.component';
 
   ],
   providers: [
+    PubServiceService,
     PostService,
     {
       provide: LocationStrategy,

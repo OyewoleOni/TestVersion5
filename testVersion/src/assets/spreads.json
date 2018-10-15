@@ -1,0 +1,36 @@
+{
+    "spreads": [
+        {
+            "spread": "Hogo",
+            "regionId" :1
+        },
+        {
+            "spread": "Pogo",
+            "regionId" :2
+        },
+        {
+            "spread": "Zogo",
+            "regionId" :3
+        },
+        {
+            "spread": "Zogo",
+            "regionId" :4
+        },
+        {
+            "spread": "Togo",
+            "regionId" :5
+        },
+        {
+            "spread": "Dogo",
+            "regionId" :1
+        },
+        {
+            "spread": "Jogo",
+            "regionId" :2
+        },
+        {
+            "spread": "Kogo",
+            "regionId" :3
+        }
+    ]
+}

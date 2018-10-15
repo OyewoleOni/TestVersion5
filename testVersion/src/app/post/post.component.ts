@@ -14,8 +14,7 @@ export class PostComponent implements OnInit {
   constructor(private _postService: PostService) { }
 
   ngOnInit() {
-    this._postService.getPosts()
-        .subscribe(data=> this.posts=data,
+    this._postService.getPosts().subscribe(data=> this.posts=data,
                     error=> this.errorMessage=error);
 
   }

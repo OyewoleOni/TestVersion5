@@ -1,0 +1,52 @@
+{
+    "periods": [
+        {
+            "periodId": 1,
+            "periodName": "Jan '18"
+        },
+        {
+            "periodId": 2,
+            "periodName": "Feb '18"
+        },
+        {
+            "periodId": 3,
+            "periodName": "Mar '18"
+        },
+        {
+            "periodId": 4,
+            "periodName": "Apr '18"
+        },
+        {
+            "periodId": 5,
+            "periodName": "May '18"
+        },
+        {
+            "periodId": 6,
+            "periodName": "Jun '18"
+        },
+        {
+            "periodId": 7,
+            "periodName": "Jul '18"
+        },
+        {
+            "periodId": 8,
+            "periodName": "Aug '18"
+        },
+        {
+            "periodId": 9,
+            "periodName": "Sep '18"
+        },
+        {
+            "periodId": 10,
+            "periodName": "Oct '18"
+        },
+        {
+            "periodId": 11,
+            "periodName": "Nov '18"
+        },
+        {
+            "periodId": 12,
+            "periodName": "Dec '18"
+        }
+    ]
+}

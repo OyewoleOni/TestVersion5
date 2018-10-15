@@ -1,0 +1,29 @@
+{
+    "regions": [
+        {
+          "regionId": 1,
+          "regionName": "US",
+          "isChecked": false
+        },
+        {
+          "regionId": 2,
+          "regionName": "Canada",
+          "isChecked": false
+        },
+        {
+          "regionId": 3,
+          "regionName": "South America",
+          "isChecked": false
+        },
+        {
+          "regionId": 4,
+          "regionName": "EAME",
+          "isChecked": false
+        },
+        {
+          "regionId": 5,
+          "regionName": "AP",
+          "isChecked": false
+        }
+      ]
+}

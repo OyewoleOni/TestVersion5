@@ -1,0 +1,97 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "uri": "http://localhost:8082/dft-odata/odata.svc/Strategies('CLCO')",
+                    "type": "odata2.namespace.Strategy"
+                },
+                "method": "BB",
+                "methodActive": "Yes",
+                "modifiedTimestamp": "2018-01-01T12:00:00",
+                "signalGeneration": "Yes",
+                "spread": "CLCO",
+                "strategyCode": "CLCO Apr-2019",
+                "id": 1
+            },
+            {
+                "__metadata": {
+                    "uri": "http://localhost:8082/dft-odata/odata.svc/Strategies('CLCO')",
+                    "type": "odata2.namespace.Strategy"
+                },
+                "method": "DTS",
+                "methodActive": "Yes",
+                "modifiedTimestamp": "2018-01-01T12:00:00",
+                "signalGeneration": "Yes",
+                "spread": "CLCO",
+                "strategyCode": "CLCO Apr-2019",
+                "id": 2
+            },
+            {
+                "__metadata": {
+                    "uri": "http://localhost:8082/dft-odata/odata.svc/Strategies('CLCO')",
+                    "type": "odata2.namespace.Strategy"
+                },
+                "method": "SE",
+                "methodActive": "No",
+                "modifiedTimestamp": "2018-01-01T12:00:00",
+                "signalGeneration": "No",
+                "spread": "CLCO",
+                "strategyCode": "CLCO Apr-2019",
+                "id": 3
+            },
+            {
+                "__metadata": {
+                    "uri": "http://localhost:8082/dft-odata/odata.svc/Strategies('CLCO')",
+                    "type": "odata2.namespace.Strategy"
+                },
+                "method": "BB",
+                "methodActive": "Yes",
+                "modifiedTimestamp": "2018-01-01T12:00:00",
+                "signalGeneration": "Yes",
+                "spread": "CLCO",
+                "strategyCode": "CLCO Apr-2019",
+                "id": 4
+            },
+            {
+                "__metadata": {
+                    "uri": "http://localhost:8082/dft-odata/odata.svc/Strategies('CLCO')",
+                    "type": "odata2.namespace.Strategy"
+                },
+                "method": "BB",
+                "methodActive": "No",
+                "modifiedTimestamp": "2018-01-01T12:00:00",
+                "signalGeneration": "No",
+                "spread": "CLCO",
+                "strategyCode": "CLCO Apr-2019",
+                "id": 5
+            },
+            {
+                "__metadata": {
+                    "uri": "http://localhost:8082/dft-odata/odata.svc/Strategies('CLCO')",
+                    "type": "odata2.namespace.Strategy"
+                },
+                "method": "DTS",
+                "methodActive": "Yes",
+                "modifiedTimestamp": "2018-01-01T12:00:00",
+                "signalGeneration": "Yes",
+                "spread": "CLCO",
+                "strategyCode": "CLCO Apr-2019",
+                "id": 6
+            },
+            {
+                "__metadata": {
+                    "uri": "http://localhost:8082/dft-odata/odata.svc/Strategies('CLCO')",
+                    "type": "odata2.namespace.Strategy"
+                },
+                "method": "SE",
+                "methodActive": "Yes",
+                "modifiedTimestamp": "2018-01-01T12:00:00",
+                "signalGeneration": "Yes",
+                "spread": "CLCO",
+                "strategyCode": "CLCO Apr-2019",
+                "id": 7
+            }
+        ]
+    }
+}
