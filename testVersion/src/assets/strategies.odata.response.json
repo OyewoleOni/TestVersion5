@@ -7,9 +7,9 @@
                     "type": "odata2.namespace.Strategy"
                 },
                 "method": "BB",
-                "methodActive": true,
+                "methodActive": "Yes",
                 "modifiedTimestamp": "2018-01-01T12:00:00",
-                "signalGeneration": true,
+                "signalGeneration": "Yes",
                 "spread": "CLCO",
                 "strategyCode": "CLCO Apr-2019",
                 "id": 1

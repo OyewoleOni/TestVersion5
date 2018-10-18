@@ -23,6 +23,7 @@ import { BadgeComponent } from './badge/badge.component';
 import { PubServiceService} from './pub-service.service';
 import { OneComponent } from './one/one.component';
 import { TwoComponent } from './two/two.component';
+import { TodoListComponent } from './todo-list/todo-list.component';
 // import { DepartmentListComponent } from './department-list/department-list.component';
 // import { EmployeeListComponent } from './employee-list/employee-list.component';
 
@@ -44,7 +45,8 @@ import { TwoComponent } from './two/two.component';
     TestReComComponent,
     BadgeComponent,
     OneComponent,
-    TwoComponent
+    TwoComponent,
+    TodoListComponent
   ],
   imports: [
     BrowserModule,
