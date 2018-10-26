@@ -24,6 +24,8 @@ import { PubServiceService} from './pub-service.service';
 import { OneComponent } from './one/one.component';
 import { TwoComponent } from './two/two.component';
 import { TodoListComponent } from './todo-list/todo-list.component';
+import { ChildTutorialsComponent } from './child-tutorials/child-tutorials.component';
+import { ParentTutorialsComponent } from './parent-tutorials/parent-tutorials.component';
 // import { DepartmentListComponent } from './department-list/department-list.component';
 // import { EmployeeListComponent } from './employee-list/employee-list.component';
 
@@ -46,7 +48,9 @@ import { TodoListComponent } from './todo-list/todo-list.component';
     BadgeComponent,
     OneComponent,
     TwoComponent,
-    TodoListComponent
+    TodoListComponent,
+    ChildTutorialsComponent,
+    ParentTutorialsComponent
   ],
   imports: [
     BrowserModule,
